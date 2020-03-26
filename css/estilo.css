@@ -1,0 +1,202 @@
+/* Mini - Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* Achor Scroll */
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Cabeçalho */
+
+nav li{
+    font-size: 20px;
+}
+
+nav .navbar-nav li a{
+    color: #F5EA5C !important;
+}
+
+/* Sobre Nós */
+
+#sobreTitulo{
+    color: #0F9033;
+}
+
+#sobreSubTitulo{
+    color: #13672C;
+    font-family: 'Century Gothic';
+}
+
+#sobreTexto{
+    color: #585555;
+    font-family: 'Bahnschrift';
+}
+
+@media (min-width: 1203px){
+    
+    #sobreTitulo{
+        font-size: 70pt;
+    }
+
+    #sobreSubTitulo{
+        font-size: 26pt;
+    }
+
+    #sobreTexto{
+        font-size: 16pt;
+    }
+}
+
+ /* Agenda */
+
+#agendaTitulo{
+    color: #4eaac2;
+    font-family: 'Century Gothic';
+}
+
+.card-title{
+    font-family: 'Century Gothic';
+}
+
+.card-text{
+    font-family: 'Century Gothic';
+}
+
+.card-body{
+    font-family: 'Bahnschrift';
+}
+
+/* Gallery */
+
+.gallery{
+    text-align: center;
+}
+
+.gallery img{
+    transition: 1s;
+    padding: 8px;
+    width: 375px;
+}
+
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+/* Contato */
+
+.contact-section{
+    background-color: #F5EA5C;
+}
+
+.contact-section h1{
+    text-align: center;
+    font-family: 'Century Gothic';
+    color: #b8ae2a;
+}
+
+.contact-section p{
+    text-align: center;
+    font-family: 'Bahnschrift';
+    color: white;
+}
+
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    padding: 20px 40px;
+    outline: none;
+    transition: 0.5s;
+    font-family: 'Century Gothic';
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #b8ae2a;
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background: #b8ae2a;
+    color: white;
+    padding: 12px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'Century Gothic';
+}
+
+.contact-form-btn:hover{
+    background: rgb(209, 199, 60);
+}
+
+/* Footer */
+
+.newsletter{
+    text-align: center;
+    font-family: 'Century Gothic';
+    background-color: #4EAAC3; 
+    height: 300px;
+}
+
+#newsletter{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+#send{
+    padding: 13px;
+    background-color: #FB35AC;
+    border-style: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#send:hover{
+    color: white;
+}
+
+.footer-main h2{
+    font-size: 30pt;
+}
+
+.footer-main a{
+    font-family: 'Century Gothic';
+    color: inherit;
+    padding: 7px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #4EAAC3;
+    border-top: 2px solid white;
+    height: 75px;
+    text-align: center;
+}
+
+footer h4{
+    margin-top: 15px;
+    font-size: 16pt;
+}
